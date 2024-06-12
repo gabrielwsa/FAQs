@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background: url('/assets/images/background-pattern-desktop.svg' ) no-repeat;
+  background-size: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Work Sans;
+  padding-top: 5vw;
+
+ }
+
+.Body{
+  width: 400px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5vw;
+  padding: 2vw;
+  padding-top: 0%;
+  border-radius: 0.5vw;
+
+}
+
+.Head{
+  display: flex;
+  gap: 1.4vw;
+  font-size: 1.3em;
+}
+
+.questions{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  align-self: center;
+
+  & .buttons{
+    justify-self: right;
+    align-self: center;
+  }
+
+  & h5:hover{
+    color: purple;
+    cursor: pointer;
+  }
+}
+
+.textos{
+  display: none;
+  overflow: hidden;
+  margin: 0%;
+}
